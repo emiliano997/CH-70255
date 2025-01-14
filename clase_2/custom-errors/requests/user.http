@@ -1,0 +1,18 @@
+### GET Users
+
+GET http://localhost:5000/api/users
+
+### GET User
+
+GET http://localhost:5000/api/users/1
+
+### POST User
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@gmail.com"
+}
